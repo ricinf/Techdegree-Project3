@@ -64,6 +64,7 @@ input[type="text"],[type="email"],[type="tel"] {
     height: 60px;
     width: 100%;
     border-style: none;
+    padding: 0;
 }
 
 #zip  {
@@ -119,6 +120,7 @@ input[type="submit"] {
     background-color: #65B7B8;
     color: white;
     border-style: none;
+    padding: 0;
 }
 
 .main-footer{
@@ -132,7 +134,42 @@ input[type="submit"] {
 
 @media (min-width: 768px) {
 
+   
     .main-form {
         margin: 0 25%;
     }
+
+    .flex {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;   
+    }
+
+    .flex label {
+        margin: 10px 0;
+        height: 60px;
+        width: 45%;
+    }
+
+    .flex input, .state  {
+        flex: 1 55%;
+        margin: 10px 0;
+    }
+
+    #zip {
+        max-width: 32%;    
+    }
+
+    
+
+
+    
+
+ 
+   
+   
+
+
+
+
 }

@@ -17,9 +17,11 @@
         <p class="form-description t-align">Get the latest news on how your code is doing right in your inbox</p>    
         <fieldset class="contact-section">
             <legend class="contact-legend">Contact Information</legend>
+            <div class="flex">
             <label for="name">Full Name</label>
             <br>
  <!-- Exceeds Expectations?? // Added additional placeholder on all fields. Also used the required attribute on the name & email input fields below. -->
+            
             <input type="text" name="user_name" id="name" placeholder="Required" required>
             <br>
             <label for="email">Email Address</label>
@@ -100,6 +102,7 @@
             <br>
 <!-- found documentation on stackoverflow for setting max length and inputmode numeric to display numeric keyboard on mobile devices and allow max length of 5 for zip codes.  -->
             <input type="text" name="zip" id="zip" maxlength="5" inputmode="numeric" placeholder="Zip code">
+            </div>
         </fieldset>
         <fieldset class="newsletter-section">
             <legend class="newsletter-legend">Newsletter</legend>
