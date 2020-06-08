@@ -9,8 +9,6 @@
 
 .main-form {
     margin: 20px;
-
-    
 }
 
 .form-title,
@@ -138,10 +136,10 @@ input[type="submit"] {
 @media (min-width: 768px) {
 
     .form-title,
-.contact-legend,
-.newsletter-legend {
-    font-size: 2.5rem;
-}
+    .contact-legend,
+    .newsletter-legend {
+        font-size: 2.5rem;
+    }
 
     .main-form {
         max-width: 50%;
