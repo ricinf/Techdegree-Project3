@@ -155,11 +155,11 @@ input[type="submit"] {
     .flex label {
         margin: 10px 0;
         height: 60px;
-        width: 45%;
+        width: 25%;
     }
 
     .flex input, .state  {
-        flex: 1 55%;
+        flex: 1 75%;
         margin: 10px 0;
     }
 
